@@ -1,2 +1,6 @@
 #!/bin/bash
-npx hscms upload src cms-theme-boilerplate
+
+# Webpack
+webpack && npx hscms upload dist cms-theme-boilerplate
+
+
